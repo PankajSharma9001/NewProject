@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // Set the base URL of the backend API
-const API_URL = 'https://newproject-whm4.onrender.com';
+const API_URL = `http://localhost:${process.env.PORT}/api/auth`;
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
